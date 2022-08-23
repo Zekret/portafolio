@@ -8,5 +8,12 @@ module.exports = {
       xm: '920px',
       ...defaultTheme.screens,
     },
+    extend: {
+      colors: {
+        azul: {
+          main: '#4D59E3'
+        }
+      }
+    }
   }
 };
