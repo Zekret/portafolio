@@ -12,7 +12,6 @@ const Main = () => {
         <div>
             <About />
         </div>
-
         return allContent
 
     }
