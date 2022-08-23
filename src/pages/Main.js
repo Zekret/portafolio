@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import About from '../components/About';
 import Header from '../components/Header';
-import Profile from '../components/Profile';
+import Profile from '../components/Profile/Profile';
 import Proyects from '../components/Proyects';
 import Skills from '../components/Skills';
 
 const Main = () => {
 
     const [sticky, setSticky] = useState(false);
-    const [scrollValue, setScrollValue] = useState(0);
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
@@ -21,18 +20,14 @@ const Main = () => {
         })
     })
 
-    const handleScroll = () => {
-        window.scrollTo({ top: scrollValue, behavior: 'smooth' })
-    }
-
     const renderContent = () => {
 
         let allContent = [];
 
         allContent =
             <div>
-                <Profile handleScroll={() => handleScroll()} setScrollValue={setScrollValue} />
-                {sticky && <Header scrollValue={scrollValue} setSticky={setSticky} />}
+                <Profile />
+                {sticky && <Header setSticky={setSticky} />}
                 <About />
                 <Skills />
                 <Proyects />
