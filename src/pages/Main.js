@@ -1,23 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import About from '../components/About';
 import Header from '../components/Header';
+import Profile from '../components/Profile';
 
 const Main = () => {
+
+    const [sticky, setSticky] = useState(false)
 
     const renderContent = () => {
 
         let allContent = [];
 
-        allContent = 
-        <div>
-            <About />
-        </div>
+        allContent =
+            <div>
+                <Profile />
+                {sticky && <Header />}
+                <About />
+            </div>
         return allContent
 
     }
     return (
         <div>
-            <Header />
+
             <div>{renderContent()}</div>
         </div>
     );
