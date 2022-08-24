@@ -1,8 +1,8 @@
 import React from 'react';
 import IMG from '../../assets/gato.jpg'
 import TitleMain from '../TitleMain';
-import P from './P';
-import Title from './Title';
+import P from '../FontType/P';
+import Title from '../FontType/Title';
 
 const About = () => {
     return (
@@ -29,12 +29,12 @@ const About = () => {
                         </div>
                         <div>
                             <Title label='Experiencia' />
-                            <p>
-                                He adquirido conocimientos en diferentes tecnologias tales como HTML, CSS, JavaScript, React, Redux y NodeJS.
-                            </p>
-                            <p>
-                                En la etapa que estuve desarrollando en un proyecto durante casi 1 año.
-                            </p>
+                            <P 
+                                label='He adquirido conocimientos en diferentes tecnologias tales como HTML, CSS, JavaScript, React, Redux y NodeJS.'
+                            />
+                            <P 
+                                label='En la etapa que estuve desarrollando en un proyecto durante casi 1 año.'
+                            />
                         </div>
                     </div>
                 </div>

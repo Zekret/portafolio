@@ -11,9 +11,9 @@ const Profile = () => {
                 <h2 className='tw-font-semibold tw-text-xl tw-mt-3'>Desarrollador Web</h2>
             </div>
             <div className='tw-flex tw-flex-row tw-mt-5 tw-gap-4 tw-font-medium tw-text-base'>
-                <Tabs className='tw-cursor-pointer' label={'Sobre Mi'} value={939} />
-                <Tabs className='tw-cursor-pointer' label={'Habilidades'} value={1878} />
-                <Tabs className='tw-cursor-pointer' label={'Proyectos'} value={2817} />
+                <Tabs className='tw-cursor-pointer tw-transition-all tw-duration-200 tw-ease-in-out hover:tw-text-azul-main hover:tw-font-bold hover:tw-scale-95' label={'Sobre Mi'} value={939} />
+                <Tabs className='tw-cursor-pointer tw-transition-all tw-duration-200 tw-ease-in-out hover:tw-text-azul-main hover:tw-font-bold hover:tw-scale-95' label={'Habilidades'} value={1878} />
+                <Tabs className='tw-cursor-pointer tw-transition-all tw-duration-200 tw-ease-in-out hover:tw-text-azul-main hover:tw-font-bold hover:tw-scale-95' label={'Proyectos'} value={2817} />
             </div>
             <Tabs
                 className='tw-rounded-full tw-mb-4 tw-absolute tw-bottom-0'

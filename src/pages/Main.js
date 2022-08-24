@@ -8,7 +8,7 @@ import Skills from '../components/Skills';
 const Main = () => {
 
     const [sticky, setSticky] = useState(false);
-
+    
     useEffect(() => {
         window.addEventListener('scroll', () => {
             const scrolled = window.scrollY;
