@@ -7,13 +7,13 @@ const Profile = () => {
     return (
         <div className='tw-h-screen tw-flex tw-flex-col tw-justify-center tw-items-center'>
             <div className='tw-flex tw-flex-col tw-text-center'>
-                <h1>Jonatan Concha</h1>
-                <h2>Desarrollador Web</h2>
+                <h1 className='tw-font-extrabold tw-text-4xl'>Jonatan Concha</h1>
+                <h2 className='tw-font-semibold tw-text-xl tw-mt-3'>Desarrollador Web</h2>
             </div>
-            <div className='tw-flex tw-flex-row tw-mt-4 tw-gap-4'>
-                <Tabs label={'Sobre Mi'} value={939} />
-                <Tabs label={'Habilidades'} value={1878} />
-                <Tabs label={'Proyectos'} value={2817} />
+            <div className='tw-flex tw-flex-row tw-mt-5 tw-gap-4 tw-font-medium tw-text-base'>
+                <Tabs className='tw-cursor-pointer' label={'Sobre Mi'} value={939} />
+                <Tabs className='tw-cursor-pointer' label={'Habilidades'} value={1878} />
+                <Tabs className='tw-cursor-pointer' label={'Proyectos'} value={2817} />
             </div>
             <Tabs
                 className='tw-rounded-full tw-mb-4 tw-absolute tw-bottom-0'

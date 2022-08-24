@@ -12,7 +12,7 @@ const Main = () => {
     useEffect(() => {
         window.addEventListener('scroll', () => {
             const scrolled = window.scrollY;
-            if (scrolled === 939 || scrolled > 939) {
+            if (scrolled === 939 || scrolled > 935) {
                 setSticky(true)
             } else {
                 setSticky(false)
