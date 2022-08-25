@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../styles/header.css'
 const Header = ({ HandleAbout, HandleSkills, HandleProyects }) => {
     return (
         // <div
@@ -14,9 +14,15 @@ const Header = ({ HandleAbout, HandleSkills, HandleProyects }) => {
             className='tw-p-4 tw-bg-azul-main tw-w-full tw-sticky tw-z-10 tw-top-0'>
             <div className='tw-text-white tw-font-bold tw-flex tw-gap-4 tw-justify-center'>
                 <div className='tw-flex tw-gap-4'>
-                    <div onClick={HandleAbout} className='tw-cursor-pointer'>Sobre Mi</div>
-                    <div onClick={HandleSkills} className='tw-cursor-pointer'>Habilidades</div>
-                    <div onClick={HandleProyects} className='tw-cursor-pointer'>Proyectos</div>
+                    <div className='container-button'>
+                        <div onClick={HandleAbout} className='button-header tw-cursor-pointer'>Sobre Mi</div>
+                    </div>
+                    <div className='container-button'>
+                        <div onClick={HandleSkills} className='button-header tw-cursor-pointer'>Habilidades</div>
+                    </div>
+                    <div className='container-button'>
+                        <div onClick={HandleProyects} className='button-header tw-cursor-pointer'>Proyectos</div>
+                    </div>
                 </div>
             </div>
         </div>

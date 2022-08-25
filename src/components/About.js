@@ -1,8 +1,8 @@
 
-import IMG from '../../assets/gato.jpg'
-import TitleMain from '../TitleMain';
-import P from '../FontType/P';
-import Title from '../FontType/Title';
+import IMG from '../../src/assets/gato.jpg'
+import TitleMain from './TitleMain';
+import P from './FontType/P';
+import Title from './FontType/Title';
 
 const About = ({ about }) => {
 
@@ -25,16 +25,22 @@ const About = ({ about }) => {
                     <div>
                         <Title label='Educación' />
                         <P
-                            label='Estudie Ingenieria Informatica en la universidad tecnologica de INACAP'
+                            label='Ingenieria en Informática'
+                        />
+                        <P
+                            label='Universidad Tecnológica de Chile, INACAP'
+                        />
+                        <P
+                            label='2016 - 2020'
                         />
                     </div>
                     <div>
                         <Title label='Experiencia' />
                         <P
-                            label='He adquirido conocimientos en diferentes tecnologias tales como HTML, CSS, JavaScript, React, Redux y NodeJS.'
+                            label='Tenis-Up'
                         />
                         <P
-                            label='En la etapa que estuve desarrollando en un proyecto durante casi 1 año.'
+                            label='Febrero 2021 - Mayo 2021'
                         />
                     </div>
                 </div>

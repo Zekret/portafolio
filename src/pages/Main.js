@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import About from '../components/About/About';
+import About from '../components/About';
 import Header from '../components/Header';
 // import Profile from '../components/Profile/Profile';
 import Proyects from '../components/Proyects';
@@ -49,9 +49,9 @@ const Main = () => {
                     <h2 className='tw-font-semibold tw-text-xl tw-mt-3'>Desarrollador Web</h2>
                 </div>
                 <div className='tw-flex tw-flex-row tw-mt-5 tw-gap-4 tw-font-medium tw-text-base'>
-                    <div onClick={() => scrollToSection(about)} className='tw-cursor-pointer tw-transition-all tw-duration-200 tw-ease-in-out hover:tw-text-azul-main hover:tw-font-bold hover:tw-scale-95'>Sobre Mi</div>
-                    <div onClick={() => scrollToSection(skills)} className='tw-cursor-pointer tw-transition-all tw-duration-200 tw-ease-in-out hover:tw-text-azul-main hover:tw-font-bold hover:tw-scale-95'>Habilidades</div>
-                    <div onClick={() => scrollToSection(proyects)} className='tw-cursor-pointer tw-transition-all tw-duration-200 tw-ease-in-out hover:tw-text-azul-main hover:tw-font-bold hover:tw-scale-95'>Proyectos</div>
+                    <div onClick={() => scrollToSection(about)} className='tw-cursor-pointer tw-transition-all tw-duration-500 tw-ease-in-out hover:tw-text-azul-main hover:tw-font-bold hover:tw-scale-100'>Sobre Mi</div>
+                    <div onClick={() => scrollToSection(skills)} className='tw-cursor-pointer tw-transition-all tw-duration-500 tw-ease-in-out hover:tw-text-azul-main hover:tw-font-bold hover:tw-scale-100'>Habilidades</div>
+                    <div onClick={() => scrollToSection(proyects)} className='tw-cursor-pointer tw-transition-all tw-duration-500 tw-ease-in-out hover:tw-text-azul-main hover:tw-font-bold hover:tw-scale-100'>Proyectos</div>
                 </div>
                 <div
                     onClick={() => scrollToSection(about)}
