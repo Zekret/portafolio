@@ -13,6 +13,9 @@ module.exports = {
         azul: {
           main: '#4D59E3'
         }
+      },
+      boxShadow: {
+        '3xl': '0px 25px 30px 15px rgba(0,0,0,0.67)',
       }
     }
   }

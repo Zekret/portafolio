@@ -13,7 +13,7 @@ const About = ({ about }) => {
             </div>
             <div className='tw-flex tw-items-start tw-justify-center tw-gap-40 tw-flex-row'>
                 <div className='tw-mt-16'>
-                    <img className='tw-rounded-full tw-h-64 tw-w-64' src={IMG} alt='Gato' />
+                    <img className='tw-rounded-full tw-h-64 tw-w-64 tw-shadow-3xl' src={IMG} alt='Gato' />
                 </div>
                 <div className='tw-flex tw-flex-col tw-justify-center tw-gap-4 tw-w-96'>
                     <div>
