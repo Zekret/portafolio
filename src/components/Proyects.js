@@ -1,9 +1,9 @@
 import React from 'react';
 import TitleMain from './TitleMain';
 
-const Proyects = () => {
+const Proyects = ({ proyects }) => {
     return (
-        <div className='tw-h-screen'>
+        <div ref={proyects} className='tw-h-screen'>
             <div className='tw-h-1/4 tw-flex tw-justify-center tw-items-center'>
                 <TitleMain label='Proyectos' />
             </div>
