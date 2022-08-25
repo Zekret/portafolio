@@ -33,7 +33,7 @@ const Main = () => {
             const scrolled = window.scrollY;
             if (
                 (scrolled === containerOffSet || scrolled > containerOffSet)
-                ) {
+            ) {
                 setSticky(true)
             } else {
                 setSticky(false)
@@ -60,7 +60,14 @@ const Main = () => {
                     <AiOutlineArrowDown size={25} className='tw-transition-all tw-delay-75 hover:tw-translate-y-1 hover:tw-scale-100 hover:tw-duration-500' />
                 </div>
             </div>
-            {sticky && <Header HandleAbout={() => scrollToSection(about)} HandleSkills={() => scrollToSection(skills)} HandleProyects={() => scrollToSection(proyects)} />}
+            {sticky
+                &&
+                <Header
+                    HandleAbout={() => scrollToSection(about)}
+                    HandleSkills={() => scrollToSection(skills)}
+                    HandleProyects={() => scrollToSection(proyects)}
+                />
+            }
             <About about={about} />
             <Skills skills={skills} />
             <Proyects proyects={proyects} />
