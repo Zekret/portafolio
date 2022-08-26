@@ -37,5 +37,10 @@
             "description": "Esta aplicación ideada por Johann Westphal, quien es uno de los fundadores de Westphal Soluciones Tecnologicas Spa, es una aplicacion que cuenta tanto con sitio web como con aplicacion movil creada principalmente para permitir a jugadores conectarse con otros de su ciudad o pais, asi como tambien poder inscribirse a torneos organizados.",
             "button": "Ver sitio web"
         }
+    },
+    "footer": {
+        "text": {
+            "made": "Hecho por Jonatan Concha Camacho"
+        }
     }
 }

@@ -8,6 +8,7 @@ import Skills from '../components/Skills';
 import { AiOutlineArrowDown, AiOutlineGithub, AiFillLinkedin } from 'react-icons/ai'
 import { useTranslation } from 'react-i18next';
 import Translate from '../components/Translate';
+import Footer from '../components/Footer';
 
 const Main = () => {
 
@@ -112,6 +113,7 @@ const Main = () => {
             <About t={t} about={about} />
             <Skills t={t} skills={skills} />
             <Proyects t={t} proyects={proyects} />
+            <Footer t={t} />
         </div>
     );
 };
