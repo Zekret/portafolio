@@ -16,12 +16,14 @@ const Proyects = ({ proyects, t }) => {
                     </div>
                 </div>
                 <div className='tw-w-1/2'>
-                    <div className='tw-w-3/4 tw-place-content-start tw-mb-4'>
+                    <div className='tw-w-3/4 tw-place-content-start tw-mb-8'>
                         <P
                             label={t("proyects.p.description")}
                         />
                     </div>
-                    <button className='tw-rounded-3xl tw-bg-azul-main tw-text-white tw-font-bold tw-pt-3 tw-pb-3 tw-pl-4 tw-pr-4'>Ver sitio web</button>
+                    <a target="_blank" rel="noreferrer" className='tw-no-underline tw-cursor-pointer tw-bg-transparent hover:tw-bg-blue-500 tw-text-blue-700 tw-font-semibold hover:tw-text-white tw-py-2 tw-px-4 tw-border tw-border-blue-500 hover:tw-border-transparent tw-rounded' href='https://www.tenis-up.cl'>
+                        Ver sitio web
+                    </a>
                 </div>
             </div>
         </div>
