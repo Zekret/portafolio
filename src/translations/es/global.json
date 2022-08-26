@@ -1,0 +1,40 @@
+{
+    "main": {
+        "job": "Desarrollador Web",
+        "about": "Sobre Mi",
+        "skills": "Habilidades",
+        "proyects": "Proyectos"
+    },
+    "header": {
+        "about": "Sobre Mi",
+        "skills": "Habilidades",
+        "proyects": "Proyectos"
+    },
+    "about": {
+        "title": {
+            "about": "Sobre Mi",
+            "profile": "Perfil",
+            "education": "Educación",
+            "experience": "Experiencia"
+        },
+        "p": {
+            "profile": "Soy una persona que le gusta jugar mucho al fifita y al lol a veces de hecho esto es de relleno para completar un parrafo.",
+            "education1": "Ingenieria en Informática",
+            "education2": "Universidad Tecnológica de Chile, INACAP",
+            "experience1": "Febrero 2021 - Mayo 2021"
+        }
+    },
+    "skills": {
+        "title": {
+            "skills": "Habilidades"
+        }
+    },
+    "proyects": {
+        "title": {
+            "proyects": "Proyectos"
+        },
+        "p": {
+            "description": "Esta aplicación ideada por Johann Westphal, quien es uno de los fundadores de Westphal Soluciones Tecnologicas Spa, es una aplicacion que cuenta tanto con sitio web como con aplicacion movil creada principalmente para permitir a jugadores conectarse con otros de su ciudad o pais, asi como tambien poder inscribirse a torneos organizados."
+        }
+    }
+}

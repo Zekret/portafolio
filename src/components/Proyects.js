@@ -3,11 +3,11 @@ import TitleMain from './TitleMain';
 import tenisup from '../assets/proyects/tenisup.png'
 import P from './FontType/P';
 
-const Proyects = ({ proyects }) => {
+const Proyects = ({ proyects, t }) => {
     return (
         <div ref={proyects} className='tw-h-screen tw-flex tw-justify-center tw-items-center tw-flex-col'>
             <div className='tw-mb-6'>
-                <TitleMain label='Proyectos' />
+                <TitleMain label={t("proyects.title.proyects")} />
             </div>
             <div className='tw-flex tw-flex-row tw-justify-center tw-items-center tw-w-full'>
                 <div className='tw-w-1/2 tw-h-full'>
@@ -16,14 +16,12 @@ const Proyects = ({ proyects }) => {
                     </div>
                 </div>
                 <div className='tw-w-1/2'>
-                    <div className='tw-w-3/4 tw-place-content-start'>
+                    <div className='tw-w-3/4 tw-place-content-start tw-mb-4'>
                         <P
-                            label='Esta aplicacion ideada por Johann Westphal, quien es uno de los fundadores de Westphal Soluciones Tecnologicas Spa, Informática, es una aplicacion
-                    que cuenta tanto con sitio web como con aplicacion movil creada principalmente para permitir a jugadores conectarse con otros de su ciudad o pais, asi como tambien
-                    poder inscribirse a torneos organizados.'
+                            label={t("proyects.p.description")}
                         />
-                        <button>Ver sitio web</button>
                     </div>
+                    <button className='tw-rounded-3xl tw-bg-azul-main tw-text-white tw-font-bold tw-pt-3 tw-pb-3 tw-pl-4 tw-pr-4'>Ver sitio web</button>
                 </div>
             </div>
         </div>

@@ -12,11 +12,11 @@ import bootstrap from '../assets/skills/bootstrap.png'
 import firebase from '../assets/skills/firebase.png'
 
 
-const Skills = ({ skills }) => {
+const Skills = ({ skills, t }) => {
     return (
         <div ref={skills} className='tw-h-screen tw-flex tw-justify-center tw-items-center tw-flex-col'>
             <div className='tw-mb-6'>
-                <TitleMain label='Habilidades' />
+                <TitleMain label={t("skills.title.skills")} />
             </div>
             <div className='tw-flex tw-flex-wrap tw-gap-5'>
                 <div className='tw-mt-16'>

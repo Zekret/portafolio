@@ -4,12 +4,12 @@ import TitleMain from './TitleMain';
 import P from './FontType/P';
 import Title from './FontType/Title';
 
-const About = ({ about }) => {
+const About = ({ about, t }) => {
 
     return (
         <div ref={about} className='tw-h-screen tw-flex tw-justify-center tw-items-center tw-flex-col'>
             <div className='tw-mb-6'>
-                <TitleMain label='Sobre Mi' />
+                <TitleMain label={t("about.title.about")} />
             </div>
             <div className='tw-flex tw-items-start tw-justify-center tw-gap-40 tw-flex-row'>
                 <div className='tw-mt-16'>
@@ -17,30 +17,30 @@ const About = ({ about }) => {
                 </div>
                 <div className='tw-flex tw-flex-col tw-justify-center tw-gap-4 tw-w-96'>
                     <div>
-                        <Title label='Perfil' />
+                        <Title label={t("about.title.profile")} />
                         <P
-                            label='Soy una persona que le gusta jugar mucho al fifita y al lol a veces de hecho esto es de relleno para completar un parrafo.'
+                            label={t("about.p.profile")}
                         />
                     </div>
                     <div>
-                        <Title label='Educación' />
+                        <Title label={t("about.title.education")} />
                         <P
-                            label='Ingenieria en Informática'
+                            label={t("about.p.education1")}
                         />
                         <P
-                            label='Universidad Tecnológica de Chile, INACAP'
+                            label={t("about.p.education2")}
                         />
                         <P
                             label='2016 - 2020'
                         />
                     </div>
                     <div>
-                        <Title label='Experiencia' />
+                        <Title label={t("about.title.experience")} />
                         <P
                             label='Tenis-Up'
                         />
                         <P
-                            label='Febrero 2021 - Mayo 2021'
+                            label={t("about.p.experience1")}
                         />
                     </div>
                 </div>

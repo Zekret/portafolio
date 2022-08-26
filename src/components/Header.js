@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/header.css'
-const Header = ({ HandleAbout, HandleSkills, HandleProyects }) => {
+const Header = ({ HandleAbout, HandleSkills, HandleProyects, t }) => {
     return (
         // <div
         //     className='tw-p-4 tw-w-full tw-sticky tw-z-10 tw-top-0'>
@@ -15,13 +15,13 @@ const Header = ({ HandleAbout, HandleSkills, HandleProyects }) => {
             <div className='tw-text-white tw-font-bold tw-flex tw-gap-4 tw-justify-center'>
                 <div className='tw-flex tw-gap-4'>
                     <div className='container-button'>
-                        <div onClick={HandleAbout} className='button-header tw-cursor-pointer'>Sobre Mi</div>
+                        <div onClick={HandleAbout} className='button-header tw-cursor-pointer'>{t("header.about")}</div>
                     </div>
                     <div className='container-button'>
-                        <div onClick={HandleSkills} className='button-header tw-cursor-pointer'>Habilidades</div>
+                        <div onClick={HandleSkills} className='button-header tw-cursor-pointer'>{t("header.skills")}</div>
                     </div>
                     <div className='container-button'>
-                        <div onClick={HandleProyects} className='button-header tw-cursor-pointer'>Proyectos</div>
+                        <div onClick={HandleProyects} className='button-header tw-cursor-pointer'>{t("header.proyects")}</div>
                     </div>
                 </div>
             </div>
