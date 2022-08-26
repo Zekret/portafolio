@@ -40,7 +40,7 @@ const About = ({ about, t }) => {
                             label='Tenis-Up'
                         />
                         <P
-                            label={t("about.p.experience1")}
+                            label={t("about.p.experience2")}
                         />
                     </div>
                 </div>
