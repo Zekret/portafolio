@@ -22,7 +22,7 @@ const Proyects = ({ proyects, t }) => {
                         />
                     </div>
                     <a target="_blank" rel="noreferrer" className='tw-no-underline tw-cursor-pointer tw-bg-transparent hover:tw-bg-blue-500 tw-text-blue-700 tw-font-semibold hover:tw-text-white tw-py-2 tw-px-4 tw-border tw-border-blue-500 hover:tw-border-transparent tw-rounded' href='https://www.tenis-up.cl'>
-                        Ver sitio web
+                        {t("proyects.p.button")}
                     </a>
                 </div>
             </div>
