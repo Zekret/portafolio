@@ -5,9 +5,15 @@ const Header = ({ HandleAbout, HandleSkills, HandleProyects, t }) => {
         // <div
         //     className='tw-p-4 tw-w-full tw-sticky tw-z-10 tw-top-0'>
         //     <div className='tw-text-black tw-font-bold tw-flex tw-gap-4 tw-justify-center'>
-        //         <Tabs className='tw-rounded-full tw-bg-white tw-border tw-border-black tw-pr-4 tw-pl-4 tw-pt-2 tw-pb-2' label={'Sobre Mi'} value={939} />
-        //         <Tabs className='tw-rounded-full tw-bg-white tw-border tw-border-black tw-pr-4 tw-pl-4 tw-pt-2 tw-pb-2' label={'Habilidades'} value={1878} />
-        //         <Tabs className='tw-rounded-full tw-bg-white tw-border tw-border-black tw-pr-4 tw-pl-4 tw-pt-2 tw-pb-2' label={'Proyectos'} value={2817} />
+        //         <div className='container-button'>
+        //             <div onClick={HandleAbout} className='tw-cursor-pointer tw-flex tw-flex-row tw-bg-transparent hover:tw-bg-blue-500 tw-text-blue-700 tw-font-semibold hover:tw-text-white tw-py-2 tw-px-6 tw-border tw-border-blue-500 hover:tw-border-transparent tw-rounded'>{t("header.about")}</div>
+        //         </div>
+        //         <div className='container-button'>
+        //             <div onClick={HandleSkills} className='tw-cursor-pointer tw-flex tw-flex-row tw-bg-transparent hover:tw-bg-blue-500 tw-text-blue-700 tw-font-semibold hover:tw-text-white tw-py-2 tw-px-6 tw-border tw-border-blue-500 hover:tw-border-transparent tw-rounded'>{t("header.skills")}</div>
+        //         </div>
+        //         <div className='container-button'>
+        //             <div onClick={HandleProyects} className='tw-cursor-pointer tw-flex tw-flex-row tw-bg-transparent hover:tw-bg-blue-500 tw-text-blue-700 tw-font-semibold hover:tw-text-white tw-py-2 tw-px-6 tw-border tw-border-blue-500 hover:tw-border-transparent tw-rounded'>{t("header.proyects")}</div>
+        //         </div>
         //     </div>
         // </div>
         <div
