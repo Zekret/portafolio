@@ -16,6 +16,16 @@ import IMG from '../../src/assets/gato.jpg'
 import TitleMain from '../components/TitleMain';
 import P from '../components/FontType/P';
 import Title from '../components/FontType/Title';
+import html from '../assets/skills/html.png'
+import css from '../assets/skills/css.png'
+import javascript from '../assets/skills/javascript.png'
+import react from '../assets/skills/react.png'
+import redux from '../assets/skills/redux.png'
+import git from '../assets/skills/git.png'
+import node from '../assets/skills/nodejs.png'
+import tailwind from '../assets/skills/tailwind.png'
+import bootstrap from '../assets/skills/bootstrap.png'
+import firebase from '../assets/skills/firebase.png'
 
 const Main = () => {
 
@@ -146,10 +156,7 @@ const Main = () => {
                 />
             }
             <About t={t} about={about} mobileHeight={mobileHeight} />
-            <div className='tw-h-screen tw-flex tw-flex-col tw-justify-center tw-items-center' ref={skills}>
-                asddaas
-            </div>
-            {/* <Skills t={t} skills={skills} /> */}
+            <Skills t={t} skills={skills} />
             <Proyects t={t} proyects={proyects} />
             <Footer t={t} />
         </div>
