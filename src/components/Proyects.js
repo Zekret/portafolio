@@ -6,13 +6,13 @@ import P from './FontType/P';
 const Proyects = ({ proyects, t }) => {
     return (
         <div ref={proyects} className='tw-h-screen tw-flex tw-justify-center tw-items-center tw-flex-col'>
-            <div className='tw-mb-6'>
+            <div className='tw-mb-16'>
                 <TitleMain label={t("proyects.title.proyects")} />
             </div>
             <div className='tw-flex tw-flex-row tw-justify-center tw-items-center tw-w-full'>
                 <div className='tw-w-1/2'>
                     <div className='tw-flex tw-place-content-center tw-p-10'>
-                        <img className='tw-shadow-3xl tw-rounded-lg' style={{ width: '500px', height: '500px' }} src={tenisup} alt='tenisup' />
+                        <img className='tw-shadow-3xl tw-rounded-lg tw-w-[400px] tw-h-[400px]' src={tenisup} alt='tenisup' />
                     </div>
                 </div>
                 <div className='tw-w-1/2'>
