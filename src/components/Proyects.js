@@ -10,7 +10,7 @@ const Proyects = ({ proyects, t }) => {
                 <TitleMain label={t("proyects.title.proyects")} />
             </div>
             <div className='tw-flex tw-flex-row tw-justify-center tw-items-center tw-w-full'>
-                <div className='tw-w-1/2 tw-h-full'>
+                <div className='tw-w-1/2'>
                     <div className='tw-flex tw-place-content-center tw-p-10'>
                         <img className='tw-shadow-3xl tw-rounded-lg' style={{ width: '500px', height: '500px' }} src={tenisup} alt='tenisup' />
                     </div>
