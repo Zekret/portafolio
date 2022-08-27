@@ -106,9 +106,9 @@ const Main = () => {
     return (
         <div>
             <div className='tw-absolute tw-top-4 tw-left-2 xs:tw-left-8 xs:tw-top-8'>
-                <div onClick={() => handlerButton()} className={!mobile ? 'tw-cursor-pointer tw-flex tw-flex-row tw-bg-transparent hover:tw-bg-blue-500 tw-text-blue-700 tw-font-semibold hover:tw-text-white tw-py-2 tw-px-4 tw-border tw-border-blue-500 hover:tw-border-transparent tw-rounded' : 'tw-flex tw-flex-row tw-gap-2'}>
+                <button onClick={() => handlerButton()} className={!mobile ? 'tw-cursor-pointer tw-flex tw-flex-row tw-bg-transparent hover:tw-bg-blue-500 tw-text-blue-700 tw-font-semibold hover:tw-text-white tw-py-2 tw-px-4 tw-border tw-border-blue-500 hover:tw-border-transparent tw-rounded' : 'tw-flex tw-flex-row tw-gap-2'}>
                     {renderTranslator()}
-                </div>
+                </button>
                 {showLng &&
                     <>
                         {i18n.translator.language === "es" && <Translate mobile={mobile} setShowLng={setShowLng} i18n={i18n} translate={"EN"} />}
@@ -135,9 +135,9 @@ const Main = () => {
                     <h2 className='tw-font-semibold tw-text-xl tw-mt-3'>{t("main.job")}</h2>
                 </div>
                 <div className='tw-flex tw-flex-row tw-mt-5 tw-gap-4 tw-font-medium tw-text-base'>
-                    <div onClick={() => scrollToSection(about)} className='tw-cursor-pointer hover:tw-text-azul-main hover:tw-font-bold'>{t("main.about")}</div>
-                    <div onClick={() => scrollToSection(skills)} className='tw-cursor-pointer hover:tw-text-azul-main hover:tw-font-bold'>{t("main.skills")}</div>
-                    <div onClick={() => scrollToSection(proyects)} className='tw-cursor-pointer hover:tw-text-azul-main hover:tw-font-bold'>{t("main.proyects")}</div>
+                    <button onClick={() => scrollToSection(about)} className='tw-cursor-pointer hover:tw-text-azul-main hover:tw-font-bold'>{t("main.about")}</button>
+                    <button onClick={() => scrollToSection(skills)} className='tw-cursor-pointer hover:tw-text-azul-main hover:tw-font-bold'>{t("main.skills")}</button>
+                    <button onClick={() => scrollToSection(proyects)} className='tw-cursor-pointer hover:tw-text-azul-main hover:tw-font-bold'>{t("main.proyects")}</button>
                 </div>
                 <div
                     onClick={() => scrollToSection(about)}
