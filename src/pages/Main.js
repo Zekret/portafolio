@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react';
 import '../styles/header.css'
 import About from '../components/About';
 import Header from '../components/Header';
-// import Profile from '../components/Profile/Profile';
 import Proyects from '../components/Proyects';
 import Skills from '../components/Skills';
 import { AiOutlineArrowDown, AiOutlineGithub, AiFillLinkedin, AiOutlineMenu } from 'react-icons/ai'
@@ -12,20 +11,6 @@ import Footer from '../components/Footer';
 import { useMediaQuery } from '@material-ui/core';
 import es from '../assets/translate/es.png'
 import en from '../assets/translate/en.png'
-import IMG from '../../src/assets/gato.jpg'
-import TitleMain from '../components/TitleMain';
-import P from '../components/FontType/P';
-import Title from '../components/FontType/Title';
-import html from '../assets/skills/html.png'
-import css from '../assets/skills/css.png'
-import javascript from '../assets/skills/javascript.png'
-import react from '../assets/skills/react.png'
-import redux from '../assets/skills/redux.png'
-import git from '../assets/skills/git.png'
-import node from '../assets/skills/nodejs.png'
-import tailwind from '../assets/skills/tailwind.png'
-import bootstrap from '../assets/skills/bootstrap.png'
-import firebase from '../assets/skills/firebase.png'
 
 const Main = () => {
 
