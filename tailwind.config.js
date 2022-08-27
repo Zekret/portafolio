@@ -4,13 +4,15 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     screens: {
-      sm: '640',
-      md: '768',
+      xxs: '540px',
       xs: '480px',
-      xm: '920px',
+      tablet: '640px',
       ...defaultTheme.screens,
     },
     extend: {
+      fontFamily: {
+        comic: ["Comic"]
+      },
       colors: {
         azul: {
           main: '#4D59E3'
