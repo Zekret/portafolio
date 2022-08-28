@@ -24,8 +24,8 @@ const Proyects = ({ proyects, t }) => {
             <div className='tw-mb-16'>
                 <TitleMain label={t("proyects.title.proyects")} />
             </div>
-            <div className='tw-flex tw-flex-row tw-justify-center tw-items-center tw-w-full'>
-                <div className='tw-w-1/2'>
+            <div className='tw-flex tw-flex-col xs:tw-flex-row tw-justify-center tw-items-center tw-w-full'>
+                <div className='tw-w-full xs:tw-w-1/2'>
                     <Swiper
                         effect={"flip"}
                         grabCursor={true}
@@ -35,17 +35,17 @@ const Proyects = ({ proyects, t }) => {
                         className="tw-flex tw-justify-center tw-items-center"
                     >
                         <SwiperSlide className='tw-flex tw-justify-center'>
-                            <img className='tw-shadow-3xl tw-rounded-lg tw-w-[400px] tw-h-[400px]' src={tenisup} alt='tenisup' />
+                            <img className='tw-shadow-2xl xs:tw-shadow-3xl tw-rounded-lg tw-w-[250px] xs:tw-w-[400px] tw-h-[250px] xs:tw-h-[400px]' src={tenisup} alt='tenisup' />
                         </SwiperSlide>
                         <SwiperSlide className='tw-flex tw-justify-center'>
-                            <img className='tw-shadow-3xl tw-rounded-lg tw-w-[400px] tw-h-[400px]' src={tenisup2} alt='tenisup' />
+                            <img className='tw-shadow-2xl xs:tw-shadow-3xl tw-rounded-lg tw-w-[250px] xs:tw-w-[400px] tw-h-[250px] xs:tw-h-[400px]' src={tenisup2} alt='tenisup' />
                         </SwiperSlide>
                         <SwiperSlide className='tw-flex tw-justify-center'>
-                            <img className='tw-shadow-3xl tw-rounded-lg tw-w-[400px] tw-h-[400px]' src={tenisup3} alt='tenisup' />
+                            <img className='tw-shadow-2xl xs:tw-shadow-3xl tw-rounded-lg tw-w-[250px] xs:tw-w-[400px] tw-h-[250px] xs:tw-h-[400px]' src={tenisup3} alt='tenisup' />
                         </SwiperSlide>
                     </Swiper>
                 </div>
-                <div className='tw-w-1/2'>
+                <div className='tw-w-full xs:tw-w-1/2 tw-mt-2'>
                     <div className='tw-px-20'>
                         <div className='tw-items-center tw-mb-8'>
                             <Title label='Tenis-up' />
