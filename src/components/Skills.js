@@ -10,7 +10,6 @@ import node from '../assets/skills/nodejs.png'
 import tailwind from '../assets/skills/tailwind.png'
 import bootstrap from '../assets/skills/bootstrap.png'
 import firebase from '../assets/skills/firebase.png'
-import Fade from 'react-reveal/Fade';
 
 const Skills = ({ skills, t }) => {
     return (
