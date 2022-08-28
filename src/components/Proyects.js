@@ -19,6 +19,7 @@ import "swiper/css/navigation";
 import { EffectFlip, Pagination, Navigation } from "swiper";
 
 const Proyects = ({ proyects, t }) => {
+    
     return (
         <div ref={proyects} className='tw-h-screen tw-flex tw-justify-center tw-items-center tw-flex-col'>
             <div className='tw-mb-16'>
