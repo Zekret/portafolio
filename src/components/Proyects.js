@@ -4,6 +4,7 @@ import tenisup from '../assets/proyects/tenisup.png'
 import tenisup2 from '../assets/proyects/tenisup2.png'
 import tenisup3 from '../assets/proyects/tenisup3.png'
 import P from './FontType/P';
+import Title from './FontType/Title';
 
 //Swiper 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -47,6 +48,7 @@ const Proyects = ({ proyects, t }) => {
                 <div className='tw-w-1/2'>
                     <div className='tw-px-20'>
                         <div className='tw-items-center tw-mb-8'>
+                            <Title label='Tenis-up' />
                             <P
                                 label={t("proyects.p.description")}
                             />
