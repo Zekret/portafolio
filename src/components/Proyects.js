@@ -17,7 +17,6 @@ import "swiper/css/navigation";
 
 // import required modules
 import { EffectFlip, Pagination, Navigation } from "swiper";
-import { Flip } from 'react-reveal';
 
 const Proyects = ({ proyects, t }) => {
     
@@ -27,7 +26,6 @@ const Proyects = ({ proyects, t }) => {
                 <TitleMain label={t("proyects.title.proyects")} />
             </div>
             <div className='tw-flex tw-flex-col xs:tw-flex-row tw-justify-center tw-items-center tw-w-full'>
-                <Flip bottom>
                     <div className='tw-w-full xs:tw-w-1/2'>
                         <Swiper
                             effect={"flip"}
@@ -48,7 +46,6 @@ const Proyects = ({ proyects, t }) => {
                             </SwiperSlide>
                         </Swiper>
                     </div>
-                </Flip>
                 <div className='tw-w-full xs:tw-w-1/2 tw-mt-2'>
                     <div className='tw-px-20'>
                         <div className='tw-items-center tw-mb-8'>
