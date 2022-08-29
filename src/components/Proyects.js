@@ -17,6 +17,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { EffectFlip, Pagination, Navigation } from "swiper";
+import Button from './button/Button';
 
 const Proyects = ({ proyects, t }) => {
     
@@ -54,9 +55,11 @@ const Proyects = ({ proyects, t }) => {
                                 label={t("proyects.p.description")}
                             />
                         </div>
-                        <a target="_blank" rel="noreferrer" className='tw-no-underline tw-cursor-pointer tw-bg-transparent hover:tw-bg-blue-500 tw-text-blue-700 tw-font-semibold hover:tw-text-white tw-py-2 tw-px-4 tw-border tw-border-blue-500 hover:tw-border-transparent tw-rounded' href='https://www.tenis-up.cl'>
-                            {t("proyects.p.button")}
-                        </a>
+                        <Button
+                            link
+                            label={t("proyects.p.button")}
+                            href={'https://www.tenis-up.cl'}
+                        />
                     </div>
                 </div>
             </div>

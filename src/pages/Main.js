@@ -11,6 +11,7 @@ import Footer from '../components/Footer';
 import { useMediaQuery } from '@material-ui/core';
 import es from '../assets/translate/es.png'
 import en from '../assets/translate/en.png'
+import Button from '../components/button/Button';
 
 const Main = () => {
 
@@ -91,9 +92,12 @@ const Main = () => {
     return (
         <div>
             <div className='tw-absolute tw-top-4 tw-left-2 xs:tw-left-8 xs:tw-top-8'>
-                <button onClick={() => handlerButton()} className={!mobile ? 'tw-cursor-pointer tw-flex tw-flex-row tw-bg-transparent hover:tw-bg-blue-500 tw-text-blue-700 tw-font-semibold hover:tw-text-white tw-py-2 tw-px-4 tw-border tw-border-blue-500 hover:tw-border-transparent tw-rounded' : 'tw-flex tw-flex-row tw-gap-2'}>
-                    {renderTranslator()}
-                </button>
+                <Button 
+                    onClick={() => handlerButton()}
+                    label={renderTranslator()}
+                    buttonClass={false}
+                    className={!mobile ? 'tw-cursor-pointer tw-flex tw-flex-row tw-bg-transparent hover:tw-bg-blue-500 tw-text-blue-700 tw-font-semibold hover:tw-text-white tw-py-2 tw-px-2 xs:tw-px-8 tw-border tw-border-blue-500 hover:tw-border-transparent tw-rounded-3xl' : 'tw-flex tw-flex-row tw-gap-2'}
+                />
                 {showLng &&
                     <>
                         {i18n.translator.language === "es" && <Translate mobile={mobile} setShowLng={setShowLng} i18n={i18n} translate={"EN"} />}
@@ -101,12 +105,12 @@ const Main = () => {
                     </>
                 }
             </div>
-            <div className='tw-absolute tw-top-2 xs:tw-top-8 tw-right-2 xs:tw-right-8 tw-flex tw-flex-row tw-gap-2'>
-                <a target="_blank" rel="noreferrer" className={!mobile && 'tw-no-underline tw-cursor-pointer tw-flex tw-flex-row tw-bg-transparent hover:tw-bg-blue-500 tw-text-blue-700 tw-font-semibold hover:tw-text-white tw-py-2 tw-px-4 tw-border tw-border-blue-500 hover:tw-border-transparent tw-rounded'} href='https://github.com/Zekret'>
+            <div className='tw-absolute tw-top-2 xs:tw-top-8 tw-right-2 xs:tw-right-8 tw-flex tw-flex-row tw-gap-4'>
+                <a target="_blank" rel="noreferrer" className={!mobile && 'tw-no-underline tw-cursor-pointer tw-flex tw-flex-row tw-bg-transparent hover:tw-bg-blue-500 tw-text-blue-700 tw-font-semibold hover:tw-text-white tw-py-2 tw-px-4 xs:tw-px-8 tw-border tw-border-blue-500 hover:tw-border-transparent tw-rounded-3xl'} href='https://github.com/Zekret'>
                     {!mobile && 'GitHub'}
                     <AiOutlineGithub className='tw-p-1' size={mobile ? 35 : 25} />
                 </a>
-                <a target="_blank" rel="noreferrer" className={!mobile && 'tw-no-underline tw-cursor-pointer tw-flex tw-flex-row tw-bg-transparent hover:tw-bg-blue-500 tw-text-blue-700 tw-font-semibold hover:tw-text-white tw-py-2 tw-px-4 tw-border tw-border-blue-500 hover:tw-border-transparent tw-rounded'} href='https://www.linkedin.com/in/jonatan-benjamin-336982249/'>
+                <a target="_blank" rel="noreferrer" className={!mobile && 'tw-no-underline tw-cursor-pointer tw-flex tw-flex-row tw-bg-transparent hover:tw-bg-blue-500 tw-text-blue-700 tw-font-semibold hover:tw-text-white tw-py-2 tw-px-4 xs:tw-px-8 tw-border tw-border-blue-500 hover:tw-border-transparent tw-rounded-3xl'} href='https://www.linkedin.com/in/jonatan-benjamin-336982249/'>
                     {!mobile && 'Linked'}
                     <AiFillLinkedin className='tw-p-1' size={mobile ? 35 : 25} />
                 </a>
@@ -120,9 +124,21 @@ const Main = () => {
                     <h2 className='tw-font-semibold tw-text-xl tw-mt-3'>{t("main.job")}</h2>
                 </div>
                 <div className='tw-flex tw-flex-row tw-mt-5 tw-gap-4 tw-font-medium tw-text-base'>
-                    <button onClick={() => scrollToSection(about)} className='tw-cursor-pointer hover:tw-text-azul-main hover:tw-font-bold'>{t("main.about")}</button>
-                    <button onClick={() => scrollToSection(skills)} className='tw-cursor-pointer hover:tw-text-azul-main hover:tw-font-bold'>{t("main.skills")}</button>
-                    <button onClick={() => scrollToSection(proyects)} className='tw-cursor-pointer hover:tw-text-azul-main hover:tw-font-bold'>{t("main.proyects")}</button>
+                    <Button
+                        buttonClass
+                        label={t("main.about")}
+                        onClick={() => scrollToSection(about)}
+                    />
+                      <Button
+                        buttonClass
+                        label={t("main.skills")}
+                        onClick={() => scrollToSection(skills)}
+                    />
+                      <Button
+                        buttonClass
+                        label={t("main.proyects")}
+                        onClick={() => scrollToSection(proyects)}
+                    />
                 </div>
                 <div
                     onClick={() => scrollToSection(about)}
