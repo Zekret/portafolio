@@ -49,7 +49,7 @@ const Proyects = ({ proyects, t }) => {
                     </div>
                 <div className='tw-w-full xs:tw-w-1/2 tw-mt-2'>
                     <div className='tw-px-20'>
-                        <div className='tw-items-center tw-mb-8'>
+                        <div className='tw-items-center tw-mb-4 xs:tw-mb-8'>
                             <Title label='Tenis-up / Práctica Profesional' />
                             <P
                                 label={t("proyects.p.description")}
