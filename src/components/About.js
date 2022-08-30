@@ -37,7 +37,7 @@ const About = ({ about, t, mobileHeight }) => {
                     <div>
                         <Title label={t("about.title.experience")} />
                         <P
-                            label='Tenis-Up'
+                            label='Tenis-Up - Práctica Profesional'
                         />
                         <P
                             label={t("about.p.experience2")}
