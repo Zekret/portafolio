@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import TitleMain from './TitleMain';
 import html from '../assets/skills/html.png'
 import css from '../assets/skills/css.png'
@@ -10,13 +10,36 @@ import node from '../assets/skills/nodejs.png'
 import tailwind from '../assets/skills/tailwind.png'
 import bootstrap from '../assets/skills/bootstrap.png'
 import firebase from '../assets/skills/firebase.png'
+import { useInView, useAnimation, motion } from 'framer-motion';
 
 const Skills = ({ skills, t }) => {
+
+    const inView = useInView(skills)
+    const animation = useAnimation();
+
+    useEffect(() => {
+        if (inView) {
+            animation.start({
+                scale: 1,
+                transition: {
+                    type: 'spring',
+                    duration: 1,
+                    bounce: 0.3
+                }
+            })
+        } else {
+            animation.start({
+                scale: 0
+            })
+        }
+    }, [animation, inView])
+
     return (
         <div className='tw-h-screen tw-flex tw-flex-col tw-justify-evenly xs:tw-justify-center tw-items-center' ref={skills}>
             <div className='tw-mb-0 xs:tw-mb-6'>
                 <TitleMain label={t("skills.title.skills")} />
             </div>
+            <motion.div animate={animation}>
                 <div className='tw-flex tw-flex-wrap tw-justify-center tw-gap-0 xs:tw-gap-5'>
                     <div className='tw-mt-0 xs:tw-mt-16'>
                         <img className='tw-rounded-lg tw-h-24 xs:tw-h-32 tw-w-24 xs:tw-w-32' src={html} alt='HTML' />
@@ -51,6 +74,8 @@ const Skills = ({ skills, t }) => {
                         <img className='tw-rounded-lg tw-h-24 xs:tw-h-32 tw-w-24 xs:tw-w-32' src={firebase} alt='Firebase' />
                     </div>
                 </div>
+            </motion.div>
+
         </div>
     );
 };

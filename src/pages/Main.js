@@ -24,7 +24,7 @@ const Main = () => {
     const [showLng, setShowLng] = useState(false)
 
     const about = useRef(null)
-    const skills = useRef()
+    const skills = useRef(null)
     const proyects = useRef(null)
     const refContainer = useRef(null)
 
