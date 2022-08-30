@@ -21,13 +21,13 @@ const Header = ({ HandleAbout, HandleSkills, HandleProyects, t }) => {
             <div className='tw-text-white tw-font-bold tw-flex tw-gap-4 tw-justify-center'>
                 <div className='tw-flex tw-gap-4'>
                     <div className='container-button'>
-                        <button onClick={HandleAbout} className='button-header tw-cursor-pointer'>{t("header.about")}</button>
+                        <button onClick={HandleAbout} className='button-header tw-cursor-pointer tw-font-monserrat'>{t("header.about")}</button>
                     </div>
                     <div className='container-button'>
-                        <button onClick={HandleSkills} className='button-header tw-cursor-pointer'>{t("header.skills")}</button>
+                        <button onClick={HandleSkills} className='button-header tw-cursor-pointer tw-font-monserrat'>{t("header.skills")}</button>
                     </div>
                     <div className='container-button'>
-                        <button onClick={HandleProyects} className='button-header tw-cursor-pointer'>{t("header.proyects")}</button>
+                        <button onClick={HandleProyects} className='button-header tw-cursor-pointer tw-font-monserrat'>{t("header.proyects")}</button>
                     </div>
                 </div>
             </div>

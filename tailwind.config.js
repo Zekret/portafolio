@@ -11,7 +11,11 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        comic: ["Comic"]
+        monserrat: ["Monserrat"],
+        monserratbold: ["Monserrat Bold"],
+        monserratextra: ["Monserrat Extra"],
+        rubik: ["Rubik"],
+        nunito: ["Nunito"]
       },
       colors: {
         azul: {

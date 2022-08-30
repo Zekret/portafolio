@@ -1,6 +1,40 @@
 
+/* Titulo inicial */
+
 @font-face {
-  font-family: "Comic";
-  src: url("./assets/fonts/MilkyNice-Clean.ttf");
+  font-family: "Monserrat Extra";
+  src: url("./assets/fonts/Montserrat-ExtraBold.ttf");
+  font-display: swap;
+}
+
+/* Titulo Seccion */
+
+@font-face {
+  font-family: "Monserrat Bold";
+  src: url("./assets/fonts/Montserrat-Bold.ttf");
+  font-display: swap;
+}
+
+/* Botones */
+
+@font-face {
+  font-family: "Monserrat";
+  src: url("./assets/fonts/Montserrat-VariableFont_wght.ttf");
+  font-display: swap;
+}
+
+/* Subtitulos */
+
+@font-face {
+  font-family: "Rubik";
+  src: url("./assets/fonts/Rubik-VariableFont_wght.ttf");
+  font-display: swap;
+}
+
+/* Parrafos */
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./assets/fonts/NunitoSans-Bold.ttf");
   font-display: swap;
 }
