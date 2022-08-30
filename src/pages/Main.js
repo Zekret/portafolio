@@ -115,9 +115,6 @@ const Main = () => {
                     <AiFillLinkedin className='tw-p-1' size={mobile ? 35 : 25} />
                 </a>
             </div>
-            <div>
-
-            </div>
             <div ref={refContainer} className='tw-h-screen tw-flex tw-flex-col tw-justify-center tw-items-center'>
                 <div className='tw-flex tw-flex-col tw-text-center'>
                     <h1 className='tw-font-monserratextra tw-text-4xl'>Jonatan Concha Camacho</h1>
