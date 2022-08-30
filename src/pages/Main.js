@@ -11,7 +11,9 @@ import Footer from '../components/Footer';
 import { useMediaQuery } from '@material-ui/core';
 import es from '../assets/translate/es.png'
 import en from '../assets/translate/en.png'
+import codeIcon from '../assets/progra.png'
 import Button from '../components/button/Button';
+import '../styles/header.css'
 
 const Main = () => {
 
@@ -117,6 +119,7 @@ const Main = () => {
             </div>
             <div ref={refContainer} className='tw-h-screen tw-flex tw-flex-col tw-justify-center tw-items-center'>
                 <div className='tw-flex tw-flex-col tw-text-center'>
+                    <img src={codeIcon} className="tw-w-40 xs:tw-w-60 tw-h-40 xs:tw-h-60 tw-self-center" alt="icono" />
                     <h1 className='tw-font-monserratextra tw-text-4xl'>Jonatan Concha Camacho</h1>
                     <h2 className='tw-font-monserratbold tw-font-semibold tw-text-xl tw-mt-3'>{t("main.job")}</h2>
                 </div>
