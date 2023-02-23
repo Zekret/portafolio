@@ -1,46 +1,64 @@
 {
-    "main": {
-        "job": "Desarrollador Web",
-        "about": "Sobre Mi",
-        "skills": "Habilidades",
-        "proyects": "Proyectos"
+  "main": {
+    "job": "Desarrollador Web",
+    "about": "Sobre Mi",
+    "skills": "Habilidades",
+    "proyects": "Proyectos"
+  },
+  "header": {
+    "about": "Sobre Mi",
+    "skills": "Habilidades",
+    "proyects": "Proyectos"
+  },
+  "about": {
+    "title": {
+      "about": "Sobre Mi",
+      "profile": "Perfil",
+      "education": "Educación",
+      "experience": "Experiencia"
     },
-    "header": {
-        "about": "Sobre Mi",
-        "skills": "Habilidades",
-        "proyects": "Proyectos"
-    },
-    "about": {
-        "title": {
-            "about": "Sobre Mi",
-            "profile": "Perfil",
-            "education": "Educación",
-            "experience": "Experiencia"
-        },
-        "p": {
-            "profile": "Soy una persona que le gusta el desarrollo web desde el momento en el que se dió inicio a la práctica profesional, aprendiendo cada día mas sobre la programación.",
-            "education1": "Ingenieria en Informática",
-            "education2": "Universidad Tecnológica de Chile, INACAP",
-            "experience2": "Febrero 2021 - Mayo 2021"
-        }
-    },
-    "skills": {
-        "title": {
-            "skills": "Habilidades"
-        }
-    },
-    "proyects": {
-        "title": {
-            "proyects": "Proyectos"
-        },
-        "p": {
-            "description": "Aplicación para tenistas en la que pueden encontrar, jugadores, canchas y torneos relacionados con el tenis en su ciudad o país contando con una aplicación móvil y un sitio web. Idea creada por Johann Westphal fundador de Westphal Soluciones Tecnologicas Spa.",
-            "button": "Ver sitio web"
-        }
-    },
-    "footer": {
-        "text": {
-            "made": "Hecho por Jonatan Concha Camacho"
-        }
+    "p": {
+      "profile": "Soy una persona que le gusta el desarrollo web desde el momento en el que se dió inicio a la práctica profesional, aprendiendo cada día mas sobre la programación.",
+      "education1": "Ingenieria en Informática",
+      "education2": "Universidad Tecnológica de Chile, INACAP",
+      "experience2": "Febrero 2021 - Mayo 2021"
     }
+  },
+  "skills": {
+    "title": {
+      "skills": "Habilidades"
+    }
+  },
+
+  "proyects": {
+    "title": "Proyectos",
+    "buttonSeeWeb": "Ir al sitio web",
+    "buttonPrivateCode": "Código privado",
+    "buttonSeeCode": "Ver código",
+    "proyect-01": {
+      "title": "Tenis-up / Professional Practice",
+      "description": "Aplicación para tenistas en la que pueden encontrar, jugadores, canchas y torneos relacionados con el tenis en su ciudad o país contando con una aplicación móvil y un sitio web. Idea creada por Johann Westphal fundador de Westphal Soluciones Tecnologicas Spa."
+    },
+    "proyect-02": {
+      "title": "P&C Connected / FrontEnd",
+      "description": "P&C Connected es una empresa Outsorcing de Recursos Humanos de Chile que tiene como fin apoyar la gestión de sus capital humano. Sitio web desarrollado como prototipo para ser presentado a la empresa y que la utilicen para uso comercial"
+    },
+    "proyect-03": {
+      "title": "Axiom Data / FrontEnd y Backend",
+      "description": "Proyecto desarrollado para la empresa Hidro MFD buscando solucionar las falencias en cuanto al analisis de ordenes de trabajo llevadas a cabo en esta misma."
+    },
+    "proyect-04": {
+      "title": "Tic Tac Toe / Game",
+      "description": "Juego desarrollado con JavaScript y React, para jugar al conocido Tic Tac Toe, 3 en raya o Gato"
+    },
+    "proyect-05": {
+      "title": "Rock, Paper, Scissors",
+      "description": "Juego desarrollado con JavaScript y React, para jugar piedra, papel, tijeras, lagarto, spock, basado en un reto de programación"
+    }
+  },
+  "footer": {
+    "text": {
+      "made": "Hecho por Jonatan Concha Camacho"
+    }
+  }
 }

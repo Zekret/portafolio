@@ -1,46 +1,64 @@
 {
-    "main": {
-        "job": "Web Developer",
-        "about": "About Me",
-        "skills": "Skills",
-        "proyects": "Proyects"
+  "main": {
+    "job": "Web Developer",
+    "about": "About Me",
+    "skills": "Skills",
+    "proyects": "Proyects"
+  },
+  "header": {
+    "about": "About Me",
+    "skills": "Skills",
+    "proyects": "Proyects"
+  },
+  "about": {
+    "title": {
+      "about": "About Me",
+      "profile": "Profile",
+      "education": "Education",
+      "experience": "Experience"
     },
-    "header": {
-        "about": "About Me",
-        "skills": "Skills",
-        "proyects": "Proyects"
-    },
-    "about": {
-        "title": {
-            "about": "About Me",
-            "profile": "Profile",
-            "education": "Education",
-            "experience": "Experience"
-        },
-        "p": {
-            "profile": "I am a person who likes web development from the moment I started my professional practice, learning more and more about programming every day.",
-            "education1": "Computer Engineering",
-            "education2": "Technological University of Chile, INACAP",
-            "experience2": "February 2021 - May 2021"
-        }
-    },
-    "skills": {
-        "title": {
-            "skills": "Skills"
-        }
-    },
-    "proyects": {
-        "title": {
-            "proyects": "Proyects"
-        },
-        "p": {
-            "description": "Application for tennis players where they can find players, courts and tournaments related to tennis in their city or country with a mobile application and a website. Idea created by Johann Westphal founder of Westphal Soluciones Tecnologicas Spa.",
-            "button": "See website"
-        }
-    },
-    "footer": {
-        "text": {
-            "made": "Made by Jonatan Concha Camacho"
-        }
+    "p": {
+      "profile": "I am a person who likes web development from the moment I started my professional practice, learning more and more about programming every day.",
+      "education1": "Computer Engineering",
+      "education2": "Technological University of Chile, INACAP",
+      "experience2": "February 2021 - May 2021"
     }
+  },
+  "skills": {
+    "title": {
+      "skills": "Skills"
+    }
+  },
+
+  "proyects": {
+    "title": "Proyects",
+    "buttonSeeWeb": "See website",
+    "buttonPrivateCode": "Private code",
+    "buttonSeeCode": "See code",
+    "proyect-01": {
+      "title": "Tenis-up / Professional Practice",
+      "description": "Application for tennis players where they can find players, courts and tournaments related to tennis in their city or country with a mobile application and a website. Idea created by Johann Westphal founder of Westphal Soluciones Tecnologicas Spa."
+    },
+    "proyect-02": {
+      "title": "P&C Connected / FrontEnd",
+      "description": "P&C Connected is a Human Resources Outsourcing company in Chile that aims to support the management of their human capital. Website developed as a prototype to be presented to the company and to be used for commercial use."
+    },
+    "proyect-03": {
+      "title": "Axiom Data / FrontEnd y Backend",
+      "description": "Project developed for the company Hidro MFD seeking to solve the shortcomings in terms of analysis of work orders carried out in this same company."
+    },
+    "proyect-04": {
+      "title": "Tic Tac Toe / Game",
+      "description": "Game developed with JavaScript and React, to play the well-known Tic Tac Toe, 3 in a row or Cat."
+    },
+    "proyect-05": {
+      "title": "Rock, Paper, Scissors",
+      "description": "Game developed with JavaScript and React, to play rock, paper, scissors, lizard, spock, based on a programming challenge."
+    }
+  },
+  "footer": {
+    "text": {
+      "made": "Made by Jonatan Concha Camacho"
+    }
+  }
 }
