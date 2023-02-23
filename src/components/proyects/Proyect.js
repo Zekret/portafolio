@@ -16,7 +16,7 @@ export const Proyect = ({ proyects, isFirstProyect, haveLink, title, image, proy
         <div className="tw-w-full">
           <div className="tw-flex tw-justify-center">
             <img
-              className="tw-shadow-2xl xs:tw-shadow-3xl tw-rounded-lg tw-w-[250px] xs:tw-w-[650px] tw-h-[250px] xs:tw-h-[550px]"
+              className="tw-shadow-2xl xs:tw-shadow-3xl tw-rounded-lg tw-w-[250px] xs:tw-w-[550px] tw-h-[250px] xs:tw-h-[550px]"
               src={image}
               alt="tenisup"
             />
