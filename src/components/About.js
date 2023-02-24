@@ -1,5 +1,5 @@
 
-import IMG from '../../src/assets/gato.jpg'
+import IMG from '../../src/assets/avatar.png'
 import TitleMain from './TitleMain';
 import P from './FontType/P';
 import Title from './FontType/Title';
