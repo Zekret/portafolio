@@ -48,7 +48,7 @@
       "description": "Project developed for the company Hidro MFD seeking to solve the shortcomings in terms of analysis of work orders carried out in this same company."
     },
     "proyect-04": {
-      "title": "Pokedex",
+      "title": "Pokedex / Own project",
       "description": "Own Pokedex consuming the information from the PokeApi for searching any Pokemon, filtering by type and a more general view of their characteristics."
     }
   },
