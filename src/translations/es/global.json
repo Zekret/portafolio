@@ -48,12 +48,8 @@
       "description": "Proyecto desarrollado para la empresa Hidro MFD buscando solucionar las falencias en cuanto al analisis de ordenes de trabajo llevadas a cabo en esta misma."
     },
     "proyect-04": {
-      "title": "Tic Tac Toe / Game",
-      "description": "Juego desarrollado con JavaScript y React, para jugar al conocido Tic Tac Toe, 3 en raya o Gato"
-    },
-    "proyect-05": {
-      "title": "Rock, Paper, Scissors",
-      "description": "Juego desarrollado con JavaScript y React, para jugar piedra, papel, tijeras, lagarto, spock, basado en un reto de programación"
+      "title": "Pokedex",
+      "description": "Pokedex propia consumiendo la información desde la PokeApi para la  búsqueda de cualquier Pokemon, filtrar por tipo y una vista más general de sus características"
     }
   },
   "footer": {

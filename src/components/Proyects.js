@@ -2,8 +2,10 @@ import { Proyect } from "./proyects/Proyect";
 import tenisup from "../assets/proyects/tenisup.png";
 import pconnected from "../assets/proyects/pc-connected.png";
 import axiom from "../assets/proyects/axiom.png";
+import pokedex from "../assets/proyects/pokedex.png"
 import tictactoe from "../assets/proyects/tic-tac-toe.png";
 import rockpaperscissors from "../assets/proyects/rock-paper-scissors.png"
+
 
 const Proyects = ({ proyects, t }) => {
   return (
@@ -36,21 +38,12 @@ const Proyects = ({ proyects, t }) => {
       />
       <Proyect
         t={t}
-        image={tictactoe}
-        haveLink
+        image={pokedex}
         proyectTitle={t("proyects.proyect-04.title")}
         description={t("proyects.proyect-04.description")}
         labelButton={t("proyects.buttonSeeCode")}
-        href={"https://github.com/Zekret/gato"}
-      />
-      <Proyect
-        t={t}
-        image={rockpaperscissors}
         haveLink
-        proyectTitle={t("proyects.proyect-05.title")}
-        description={t("proyects.proyect-05.description")}
-        labelButton={t("proyects.buttonSeeCode")}
-        href={"https://github.com/Zekret/rock-paper-scissors"}
+        href={"https://github.com/Zekret/pokedex"}
       />
     </>
   );
