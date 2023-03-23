@@ -3,8 +3,6 @@ import tenisup from "../assets/proyects/tenisup.png";
 import pconnected from "../assets/proyects/pc-connected.png";
 import axiom from "../assets/proyects/axiom.png";
 import pokedex from "../assets/proyects/pokedex.png"
-import tictactoe from "../assets/proyects/tic-tac-toe.png";
-import rockpaperscissors from "../assets/proyects/rock-paper-scissors.png"
 
 
 const Proyects = ({ proyects, t }) => {

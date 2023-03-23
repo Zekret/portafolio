@@ -77,7 +77,7 @@ const Main = () => {
             !mobile &&
             "tw-no-underline tw-cursor-pointer tw-flex tw-flex-row tw-bg-transparent hover:tw-bg-blue-500 tw-text-blue-700 tw-font-semibold hover:tw-text-white tw-py-2 tw-px-4 xs:tw-px-8 tw-border tw-border-blue-500 hover:tw-border-transparent tw-rounded-3xl tw-font-monserrat"
           }
-          href="https://www.linkedin.com/in/jonatan-benjamin-336982249/"
+          href="https://www.linkedin.com/in/jonatan-benjamin/"
         >
           {!mobile && "Linked"}
           <AiFillLinkedin className="tw-p-1" size={mobile ? 35 : 25} />
